@@ -10,6 +10,7 @@ ZSH_THEME="agnoster"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+source $HOME/.zshrc_aliases
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -40,7 +41,7 @@ ZSH_THEME="agnoster"
 # Uncomment following line if you want to  shown in the command execution time stamp 
 # in the history command output. The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|
 # yyyy-mm-dd
-# HIST_STAMPS="mm/dd/yyyy"
+ HIST_STAMPS="dd-mm-yyyy"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
