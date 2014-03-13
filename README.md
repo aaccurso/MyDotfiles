@@ -1,7 +1,7 @@
 # MyDotFiles #
 > Version: 0.2
 
-Prepare local environment:
+### Prepare local environment
 ```sh
 cd ~ && git init
 echo * > .gitignore
@@ -10,16 +10,18 @@ git pull --force origin master
 git checkout -- *
 ```
 
-Configure zshell:
+### Configure zshell
 ```sh
 chsh -s /bin/zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ## Set terminal default font to 'Ubuntu Mono derivative Powerline'.
 ```
 
-Configure Environment: https://github.com/aaccurso/MyDotfiles/wiki/Configure-Environment
+#### Configure Environment
+https://github.com/aaccurso/MyDotfiles/wiki/Configure-Environment
 
-Configure Vim: https://github.com/aaccurso/MyDotfiles/wiki/Configure-Vim
+#### Configure Vim
+https://github.com/aaccurso/MyDotfiles/wiki/Configure-Vim
 
 Done!
 
