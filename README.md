@@ -18,6 +18,7 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ```
 
 Configure Environment: https://github.com/aaccurso/MyDotfiles/wiki/Configure-Environment
+
 Configure Vim: https://github.com/aaccurso/MyDotfiles/wiki/Configure-Vim
 
 Done!
