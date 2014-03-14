@@ -17,11 +17,11 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ## Set terminal default font to 'Ubuntu Mono derivative Powerline'.
 ```
 
-#### Configure Environment
-https://github.com/aaccurso/MyDotfiles/wiki/Configure-Environment
-
-#### Configure Vim
+### Configure Vim
 https://github.com/aaccurso/MyDotfiles/wiki/Configure-Vim
+
+#### Tools & Tweaks
+https://github.com/aaccurso/MyDotfiles/wiki/Tools-&-Tweaks
 
 Done!
 
