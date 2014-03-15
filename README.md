@@ -13,7 +13,7 @@ git checkout -- *
 ### Configure zshell
 ```sh
 chsh -s /bin/zsh
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+git clone git://github.com/aaccurso/oh-my-zsh.git ~/.oh-my-zsh
 ## Set terminal default font to 'Ubuntu Mono derivative Powerline'.
 ```
 
