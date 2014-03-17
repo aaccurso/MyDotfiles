@@ -32,3 +32,5 @@ git add --force .newDotFile
 ```
 
 > TODO: create specific .dotfiles directory.
+> TODO: add oh-my-zsh and pathogen as submodules.
+

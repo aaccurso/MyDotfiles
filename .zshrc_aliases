@@ -8,3 +8,4 @@ alias sublime-pkg="cd ~/.config/sublime-text-2/Packages"
 function mkcd () {
   mkdir $1 && cd $_
 }
+alias gitzsh="vim ~/.oh-my-zsh/plugins/git/git.plugin.zsh"
