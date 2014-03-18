@@ -1,6 +1,6 @@
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
-set nocp
+set nocompatible
 set t_Co=256
 
 execute pathogen#infect()
@@ -67,8 +67,8 @@ set showcmd
 highlight Search cterm=underline
 
 " Swap files out of the project root
-set backupdir=~/.vim/backup//
-set directory=~/.vim/swap//
+set backupdir=~/.vim/backup/
+set directory=~/.vim/swap/
 
 " Powerline (Fancy thingy at bottom stuff)
 set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
