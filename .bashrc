@@ -118,3 +118,5 @@ export DEV_HOME=/home/alan/Development
 export ANT_HOME="$DEV_HOME/apache-ant-1.9.3"
 export ANDROID_HOME="$DEV_HOME/adt-bundle-linux-x86_64-20131030/sdk"
 export PATH=$PATH:$ANT_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$JAVA_HOME/bin
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
