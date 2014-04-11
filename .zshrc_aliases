@@ -5,7 +5,14 @@ alias la="ls -CFha"
 alias ll="ls -CFlh"
 alias lla="ls -CFlha"
 alias sublime-pkg="cd ~/.config/sublime-text-2/Packages"
+alias gitzsh="vim ~/.oh-my-zsh/plugins/git/git.plugin.zsh"
+
 function mkcd () {
   mkdir $1 && cd $_
 }
-alias gitzsh="vim ~/.oh-my-zsh/plugins/git/git.plugin.zsh"
+function psgrep () {
+  ps -fea | grep $1
+}
+function hgrep () {
+  history | grep --color $1
+}
