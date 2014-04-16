@@ -1,0 +1,14 @@
+[user]
+	email = alan.accurso@graion.com
+	name = Alan Accurso
+[credential]
+	helper = store
+[color]
+	ui = auto
+[push]
+	default = simple
+[diff]
+    algorithm = patience
+#	external = meld
+[merge]
+	tool = meld
