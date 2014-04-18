@@ -78,6 +78,8 @@ ANT_HOME="$DEV_HOME/apache-ant-1.9.3"
 [[ -d $ANT_HOME ]] && export ANT_HOME && export PATH=$PATH:$ANT_HOME/bin
 ANDROID_HOME="$DEV_HOME/adt-bundle-linux-x86_64-20131030/sdk"
 [[ -d $ANDROID_HOME ]] && export ANDROID_HOME && export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+CASSANDRA_HOME="$DEV_HOME/apache-cassandra-2.0.6"
+[[ -d $CASSANDRA_HOME ]] && export CASSANDRA_HOME && export PATH=$PATH:$CASSANDRA_HOME/bin
 
 # SOURCES #
 RVM_HOME="$HOME/.rvm" 
