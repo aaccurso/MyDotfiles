@@ -2,6 +2,9 @@
 export DEV_HOME=~/Development
 RUBYMINE_HOME="$DEV_HOME/RubyMine-6.3"
 [[ -d $RUBYMINE_HOME ]] && export RUBYMINE && export PATH=$PATH:$RUBYMINE_HOME/bin
+# JAVA # The first valid option is the one that counts.
+JAVA_HOME="$DEV_HOME/jdk1.8.0_05"
+[[ -d $JAVA_HOME ]] && export JAVA_HOME && export PATH=$PATH:$JAVA_HOME/bin
 JAVA_HOME="/usr/lib/jvm/java-1.7.0-openjdk-amd64"
 [[ -d $JAVA_HOME ]] && export JAVA_HOME && export PATH=$PATH:$JAVA_HOME/bin
 MAVEN_HOME="$DEV_HOME/apache-maven-3.2.1"
