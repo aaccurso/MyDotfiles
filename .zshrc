@@ -71,3 +71,5 @@ export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 # ENVIRONMENT VARIABLES
 source $HOME/.zshenv
 
+PROMPT=$PROMPT"
+""%F{white}"$'\ue0b0'
