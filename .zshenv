@@ -15,6 +15,8 @@ ANDROID_HOME="$DEV_HOME/adt-bundle-linux-x86_64-20131030/sdk"
 [[ -d $ANDROID_HOME ]] && export ANDROID_HOME && export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 CASSANDRA_HOME="$DEV_HOME/apache-cassandra-2.0.6"
 [[ -d $CASSANDRA_HOME ]] && export CASSANDRA_HOME && export PATH=$PATH:$CASSANDRA_HOME/bin
+SBT_HOME="$DEV_HOME/sbt"
+[[ -d $SBT_HOME ]] && export SBT_HOME && export PATH=$PATH:$SBT_HOME/bin
 
 # SOURCES #
 RVM_HOME="$HOME/.rvm" 
