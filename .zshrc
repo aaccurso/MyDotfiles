@@ -72,4 +72,4 @@ export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 source $HOME/.zshenv
 
 PROMPT=$PROMPT"
-""%F{white}"$'\ue0b0'
+""%F{white}"$'\ue0b0'" "
