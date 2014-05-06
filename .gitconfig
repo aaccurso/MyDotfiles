@@ -1,0 +1,14 @@
+[user]
+email = accurso.alan@gmail.com
+name = aaccurso
+[credential]
+helper = store
+[color]
+ui = auto
+[push]
+default = simple
+[diff]
+algorithm = patience
+#   external = meld
+[merge]
+tool = meld
