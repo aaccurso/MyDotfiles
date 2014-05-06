@@ -11,6 +11,7 @@ ZSH_THEME="powerline"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source $HOME/.zshrc_aliases
+source $HOME/.zshrc_aliases_private
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"

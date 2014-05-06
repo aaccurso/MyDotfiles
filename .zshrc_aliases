@@ -1,6 +1,4 @@
 # ALIASES for zshell
-source ".zshrc_aliases_private"
-
 alias l="ls -CFh"
 alias la="ls -CFha"
 alias ll="ls -CFlh"
