@@ -5,6 +5,7 @@ alias ll="ls -CFlh"
 alias lla="ls -CFlha"
 alias sublime-pkg="cd ~/.config/sublime-text-2/Packages"
 alias gitzsh="vim ~/.oh-my-zsh/plugins/git/git.plugin.zsh"
+alias tkill="tmux kill-session -t"
 
 function mkcd () {
   mkdir $1 && cd $_
