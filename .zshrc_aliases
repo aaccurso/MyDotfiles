@@ -11,7 +11,7 @@ function mkcd () {
   mkdir $1 && cd $_
 }
 function psgrep () {
-  ps -fea | grep $1
+  ps -fea | grep --color $1
 }
 function hgrep () {
   history | grep --color $1
@@ -21,7 +21,7 @@ function ts_layout () {
   tmux -2 new-session -d -s $1 &&
   tmux split-window -h &&
   tmux split-window -v &&
-  tmux resize-pane -R 10 &&
+  tmux resize-pane -R 12 &&
   tmux select-pane -t 0 &&
   tmux -2 attach-session -t $1
 }
