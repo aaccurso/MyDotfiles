@@ -21,4 +21,4 @@ SBT_HOME="$DEV_HOME/sbt"
 # SOURCES #
 RVM_HOME="$HOME/.rvm" 
 [[ -s "$RVM_HOME/scripts/rvm" ]] && source "$RVM_HOME/scripts/rvm"
-
+NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
