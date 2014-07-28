@@ -4,7 +4,9 @@
 		"AdvancedNewFile",
 		"AngularJS",
 		"AngularJS Snippets",
+		"AutoFileName",
 		"Bootstrap 3 Snippets",
+		"ColorPicker",
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
@@ -15,9 +17,11 @@
 		"JavaScript & NodeJS Snippets",
 		"LESS",
 		"LiveReload",
+		"Markdown Preview",
 		"Package Control",
 		"Prefixr",
 		"Sass",
+		"SublimeREPL",
 		"SublimeXiki",
 		"WordPress"
 	]
