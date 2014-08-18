@@ -74,3 +74,5 @@ source $HOME/.zshenv
 
 PROMPT=$PROMPT"
 ""%F{white}"$'⌨  '" "
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
