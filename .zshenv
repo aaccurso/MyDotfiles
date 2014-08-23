@@ -18,7 +18,7 @@ CASSANDRA_HOME="$DEV_HOME/apache-cassandra-2.0.6"
 SBT_HOME="$DEV_HOME/sbt"
 [[ -d $SBT_HOME ]] && export SBT_HOME && export PATH=$PATH:$SBT_HOME/bin
 RVM_HOME="$HOME/.rvm"
-[[ -d $RVM_HOME ]] && export RVM_HOME && export PATH=$PATH:$RVM_HOME/bin && source $RVM_HOME/scripts/rvm
+[[ -d $RVM_HOME ]] && export RVM_HOME && export PATH=$PATH:$RVM_HOME/bin
 
 # SOURCES #
 NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
