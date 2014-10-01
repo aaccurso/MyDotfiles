@@ -14,8 +14,8 @@ git checkout -- *
 ```sh
 chsh -s /bin/zsh
 git clone git://github.com/aaccurso/oh-my-zsh.git ~/.oh-my-zsh
-## Set terminal default font to 'Ubuntu Mono derivative Powerline'.
 ```
+> Set terminal default font to 'Ubuntu Mono derivative Powerline'.
 
 ### Configure Vim
 https://github.com/aaccurso/MyDotfiles/wiki/Configure-Vim
@@ -32,5 +32,5 @@ git add --force .newDotFile
 ```
 
 > TODO: create specific .dotfiles directory.
-> TODO: add oh-my-zsh and pathogen as submodules.
 
+> TODO: add oh-my-zsh and pathogen as submodules.
