@@ -4,7 +4,7 @@
 ### Prepare local environment
 ```sh
 cd ~ && git init
-echo * > .gitignore
+echo "*" > .gitignore
 git remote add origin git@github.com:aaccurso/MyDotfiles.git
 git pull --force origin master
 git checkout -- *
