@@ -17,11 +17,12 @@ function hgrep () {
   history | grep --color $1
 }
 function ts_layout () {
+  guake -r $1
   [[ -d $2 ]] && cd $2
   tmux -2 new-session -d -s $1 &&
   tmux split-window -h &&
   tmux split-window -v &&
   tmux resize-pane -R 12 &&
   tmux select-pane -t 0 &&
-  tmux -2 attach-session -t $1
+  tmux -2 attach-session -t $1 &&
 }
