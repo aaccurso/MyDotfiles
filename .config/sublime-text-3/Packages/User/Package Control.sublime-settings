@@ -1,12 +1,26 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2",
+		"ssl-linux"
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
 		"AngularJS",
+		"EditorConfig",
 		"Emmet",
+		"Foundation 5 Snippets",
 		"HTML Page Snippets",
 		"Jade",
+		"JSHint",
+		"JSX",
 		"LiveReload",
+		"Package Control",
 		"Stylus",
 		"Syntax Highlighting for Sass"
 	]

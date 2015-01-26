@@ -22,3 +22,4 @@ RVM_HOME="$HOME/.rvm"
 
 # SOURCES #
 NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
+export CROSSWALK_VERSION="8.37.189.14"
