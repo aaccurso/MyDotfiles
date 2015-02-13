@@ -12,3 +12,5 @@ algorithm = patience
 #   external = meld
 [merge]
 tool = meld
+[core]
+	editor = vim
