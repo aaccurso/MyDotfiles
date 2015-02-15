@@ -3,6 +3,9 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
+		"AdvancedNewFile",
+		"AutoCompleteJS",
+		"Foundation 5 Snippets"
 	],
 	"indent_to_bracket": false,
 	"line_padding_bottom": 2,
